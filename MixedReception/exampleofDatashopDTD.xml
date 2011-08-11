@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<tutor_related_message_sequence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://learnlab.web.cmu.edu/dtd/tutor_message_v4.xsd" version_number="4">
+	<context_message context_message_id="SESSION_ID" name="START_PROBLEM">
+				<!-- Note: the context message is only required once per session, 
+				but the context message ID and session ID will need to remain the same for each transaction and for later responses -->
+		<meta>
+			<user_id>AnonWebUser_XXX</user_id>
+			<session_id>' . $sid . '</session_id>
+			<time>' . $date . '</time>
+			<time_zone>EST</time_zone>
+		</meta>
+		<dataset>
+			<name>Chemistry Mixed Reception Web Survey</name>
+			<level type="Module">
+				<name>Stoichiometry</name>
+				<problem>
+					<name>MixedReception</name>
+				</problem>
+			</level>
+		</dataset>
+	</context_message>
+	<tool_message context_message_id="RandXXX">
+		<meta>
+			<user_id>AnonWebUser_XXX</user_id>
+			<session_id>' . $sid . '</session_id>
+			<time>' . $date . '</time>
+			<time_zone>EST</time_zone>
+		</meta>
+		<semantic_event transaction_id="IncrementalValueXX" name="ATTEMPT" />
+		<event_descriptor>
+			<selection>Question' . $num . '</selection>  <!--  Various questions go here  -->
+			<action>UpdateTextField</action>
+			<input>' . $response . '</input>
+		</event_descriptor>
+	</tool_message>
+	<tool_message context_message_id="RandXXX">
+	 	<meta>
+			<user_id>AnonWebUser_XXX</user_id>
+			<session_id>' . $sid . '</session_id>
+			<time>' . $date . '</time>
+			<time_zone>EST</time_zone>
+		</meta>
+		<semantic_event transaction_id="IncrementalValueXX+1" name="ATTEMPT" />
+		<event_descriptor>
+			<selection>Question' . $num . '</selection>  <!--  Various questions go here  -->
+			<action>UpdateTextField</action>
+			<input>' . $response . '</input>
+		</event_descriptor>
+	</tool_message>
+</tutor_related_message_sequence>
+<!-- there will be a tutor_related_message_sequence for both the beginning and the end survey -->
+

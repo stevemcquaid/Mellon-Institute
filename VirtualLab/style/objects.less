@@ -1,0 +1,56 @@
+@borderColor: black;
+@borderRadius: 8px;
+@padding: .8em;
+@margin: .8em;
+@BGColor: blue;
+@fontColor: white;
+@outputFontColor: red;
+
+body {
+}
+
+#ActivityItemSuperClass {
+	.activity() {
+		//Display
+		display: table;
+		border: 1px solid @borderColor;
+		border-radius: @borderRadius;
+		-moz-border-radius: @borderRadius;
+		padding: @padding;
+		margin: @margin;
+    //Hacking for easy fix
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    text-align:center;
+		
+		//Style
+		background-color:@BGColor;
+		color: @fontColor;
+	}
+
+}
+
+#TextItemSuperClass {
+	.text() {
+		padding: @padding;
+	}
+}
+
+#InputItemSuperclass {
+	.inputBox() {
+		margin: @margin;
+		display: table-cell;
+/* 		CENTER IT!! */
+	}
+}
+
+#OutputItemSuperclass {
+	.text(){
+		#TextItemSuperClass > .text;
+		color: @outputFontColor;
+	}
+	
+	
+	
+}

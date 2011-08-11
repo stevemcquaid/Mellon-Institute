@@ -1,0 +1,5 @@
+
+.activity{display:table;border:1px solid black;border-radius:8px;-moz-border-radius:8px;padding:0.8em;margin:0.8em;margin-left:auto;margin-right:auto;width:30em;text-align:center;background-color:blue;color:white;}.activity .question{padding:0.8em;}
+.activity input{margin:0.8em;display:table-cell;}
+.activity .results{padding:0.8em;color:red;}
+.inputButton{display:table;border:1px solid black;border-radius:8px;-moz-border-radius:8px;padding:0.8em;margin:0.8em;margin-left:auto;margin-right:auto;width:30em;text-align:center;background-color:blue;color:white;}

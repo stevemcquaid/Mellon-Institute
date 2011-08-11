@@ -1,0 +1,53 @@
+<!-- Mixed Reception Survey Form
+  Author: Chun How Tan
+  Created: June 2, 2010
+  Note on how to read the survey results obtain
+-->
+
+Q1: Are you currently in a science class? 
+	- Middle school science
+	- High school chemistry
+	- High school forensics
+	- College Chemistry
+	- None
+	
+Q2: Are you doing this activity for your class?
+	- yes
+	- no
+
+Feedback:
+1. To what extent did this activity help to increase your knowledge of the types of work performed in the field of chemistry?
+2. To what extent did this activity affect your view of the usefulness of chemistry as a field in general?
+3. To what extent did this activity affect your view of the usefulness of chemistry in solving significant real-world problems?
+4. To what extent did this activity affect your view of the usefulness of chemistry in solving everyday problems>
+
+Categories:
+1. Chemistry Learning Goals:
+	Q1: In chemistry class, my goal is to learn as much as possible.
+	Q2: In chemistry class, my goal is to perform better than the other students.
+	Q3: In chemistry class, my aim is to avoid doing worse than other students.
+
+2. Chemistry Self-efficacy:
+	Q1: I am good at chemistry.
+	Q2: I like chemistry.
+
+3. Chemistry career goals:
+	Q1: I plan on becoming a scientist.
+	Q2: If given a choice, I would not study chemistry.
+	
+4. Chemistry Course Relevance:
+	Q1: Chemistry is useful for everyday problems.
+	Q2: Learning chemistry is mostly memorization.
+	
+Survey format:
+Part 1: Data collected for the first survey only.
+SessionID, class, isForClass(yes/no), CategoryNum, QuestionNum, Satisfaction, CategoryNum, QuestionNum, Satisfaction.
+
+Part 2: Data collected for both surveys.
+SessionID, class, isForClass(yes/no), CategoryNum, QuestionNum, Satisfaction, CategoryNum, QuestionNum, Satisfaction,
+CategoryNum, QuestionNum, Satisfaction, CategoryNum, QuestionNum, Satisfaction, FeedbackQuestion, Satisfaction,
+list of Murderers suspected, list of helpful evidences.
+
+Note: SessionID will remain the same for each user as long as the user does not close the browswer and no two users can have the
+same SessionId at a given time. However, after a user closes its browser, its sessionId is valid for use for other users.
+Thus, it is used to link the results from both surveys.

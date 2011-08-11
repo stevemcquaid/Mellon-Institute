@@ -1,0 +1,218 @@
+BODY, TD
+{ 
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+H1
+{
+	font-weight: bold;
+	font-size: medium;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+H2
+{
+	font-weight: bold;
+	font-size: small;
+	margin-bottom: 0px;
+	color: #292459
+}
+
+H2.title
+{
+        font-weight: bold;
+        font-size: small;
+        margin-bottom: 15px;
+        color: #292459
+}
+
+P
+{
+	line-height: 140%;
+	font-size: small;
+	margin-top: 0px;
+	margin-bottom: 15px
+}
+
+.note
+{
+	font-style: italic
+}
+P.problem
+{
+        line-height: 140%;
+        font-size: small;
+        margin-top: 10px;
+        margin-bottom: 10px
+}
+UL
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 8px;
+	margin-right: 8px;
+	padding-left: 10px
+}
+
+LI
+{
+	line-height: 140%;
+	font-size: small;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding-left: 10px
+}
+
+/* Sidebar. */
+H1.sidebar
+{
+	font-weight: bold;
+	font-size: smaller;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #332A29
+}
+
+P.sidebar
+{
+	line-height: 130%;
+	font-size: smaller;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	color: #555555
+}
+
+P.quote
+{
+	font-style: italic;
+	line-height: 130%;
+	font-size: smaller;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	color: #6C000E
+}
+
+.quoteAuthor
+{
+	font-style: normal;
+	color: #555555
+}
+
+P.address
+{
+	line-height: 130%;
+	font-size: smaller;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	color: #999999
+}
+
+P.problem
+{
+        line-height: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+
+P.title
+{
+	font-size: smaller;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #444444
+}
+
+P.education
+{
+	font-size: smaller;
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+
+/* Footer. */
+TD.footerl
+{
+	font-size: smaller;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left
+}
+
+TD.footerr
+{
+        font-size: smaller;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: right
+}
+
+
+
+
+
+/* Anchors. */
+A 
+{
+	/* text-decoration: underline; */ 
+	font-weight: bold
+}
+A:link { color: #004477}
+A:visited {color: #5074A7}
+A:active {color: #190439}
+A:hover { color: #80A4F7}
+
+/* Provides colorization of the tab's and tabpages. */
+TD.home
+{
+	background: #CBB99C;
+	text-align: center 
+}
+
+TD.mixed
+{
+	background: #B87D45;
+	text-align: left;
+	font-size: small 
+}
+
+TD.curriculum
+{
+	background: #004477;
+	text-align: center 
+}
+
+TD.sponsors
+{
+	background: #190439;
+	text-align: center 
+}
+
+TD.links
+{
+	background: #004E4B;
+	text-align: center 
+}
+
+TD.feedback
+{
+	background: #A06800;
+	text-align: center 
+}
+
+TD.about
+{
+	background: #332A29;
+	text-align: center 
+}
+
+TD.none
+{
+	background: #000000;
+	text-align: center 
+}
+

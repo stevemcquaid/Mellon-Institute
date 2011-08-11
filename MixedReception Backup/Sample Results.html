@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Mixed Reception Survey Results</title>
+	<style type="text/css">
+		h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: 140%;
+      margin-top: 0px;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+	
+		p{
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 10px;
+      margin-right: 10px;
+	  	text-align: left;
+    }
+
+    p.bold {
+      font-weight: bold;
+    }
+	
+		p.satisfaction_button {
+      margin-left: 20px;
+      margin-right: 20px; 
+    }
+	
+		p.center {
+      text-align: center;
+    }
+	
+		p.centerBold{
+	  text-align: center;
+	  font-weight:bold;
+	  color:red;
+		}
+	
+		p.right{
+	  	text-align: right;
+		}
+	
+		a{
+	  	font-family: Arial, Helvetica, sans-serif;
+	  	text-decoration: none;
+	  	color: blue;
+	  	font-weight: bold;
+		}
+	</style>
+</head>
+<body bgcolor="grey">
+     <div align="center">
+     
+     <table width="851" cellpadding="0" bgcolor="white" cellspacing="0" border="1">
+	<tr>
+		<td>
+
+		<br>
+		<h1 align=center>Mixed Reception: Case Report - Results</h1>
+	    <br/>
+	    	<p>Here is the completed report submitted by: </p>
+				<h1>TESTING<?php echo $_POST['name'] ?></h1>
+     
+ 	<br/>
+	<p><b>[Part 1 - Evidence] </b></p>
+	<ol>
+	<p><li>An unknown substance was present in Nelson&#39;s blood.  What is this substance and how did it get 
+	into his blood? </p>
+	<ul><p>
+	<br/>TESTING<?php echo $_POST['what_unknown_sub'] ?> </p></ul></li><br>
+	<p><li>What is the molar mass (molecular weight) of the allergy drug? &nbsp;
+	<ul><p>
+	<br/>TESTING<?php echo $_POST['mw_drug'] ?> g/mol.</ul></p></li><br>
+	<p><li>What is the molar mass (molecular weight) of the anti-venom?  &nbsp;
+	<ul><p>
+  <br/>TESTING<?php echo $_POST['mw_anti_venom'] ?> g/mol.</ul></p></li><br>
+  <p><li>The molar mass (molecular weight) of the unknown substance in Nelson&#39;s blood is 765.82. Why?
+  <ul><p>
+	<br/>TESTING<?php echo $_POST['unknown_sub_mass_why'] ?></p></ul></li><br>
+	<p><li>The coroner's report indicates that Nelson died from an allergic reaction, 
+	yet he was taking a drug for this. Can you explain why he would still die from peanuts? </p>
+	<ul><p>
+	<br/>TESTING<?php echo $_POST['whypeanut_killed'] ?></p></ul></li><br>
+	<p><li>Did Nelson take his medication that day?  Was the correct concentration of medication present in his blood?</p>
+	<ul><p>
+	<br/>TESTING<?php echo $_POST['take_medicine'] ?></p></ul></li><br>
+	<p><li>You found an abstract on Sam&#39;s desk. Is this evidence relevant to your solution? Why or why not?</p>
+	<ul><p>
+	<br/>TESTING<?php echo $_POST['sam_abstract'] ?></p></ul></li><br>
+	<p><li>There were pills found in Joanna&#39;s office. Is this evidence relevant to your solution? Why or why not?</p>
+	<ul><p>
+	<br/>TESTING<?php echo $_POST['joanna_pills'] ?></p></ul></li><br>
+	<p><li>Are Joanna&#39;s emails important evidence in support of your solution?</li>
+	<ul><p>
+	<br/>TESTING<?php echo $_POST['joanna_emails'] ?></p></ul></li><br>
+	<p><li>Was any of the food or drink left at the crime-scene important evidence for your case? Why or why not?</p>
+	<ul><p>
+	<br/>TESTING<?php echo $_POST['food_drink'] ?></p></ul></li><br>
+	</ol>
+		<p><b>[Part 2 - Conclusions] </b></p>
+	<ol>
+	<p><li>Who did it?</p>
+		<ul><p>
+	<br/>TESTING<?php echo $_POST['who_guilty'] ?></p></ul></li><br>
+	<p><li>Why did they do it?</p>
+		<ul><p>
+	<br/>TESTING<?php echo $_POST['why_motive'] ?></p></ul></li><br>
+	<p><li>How did they do it?</p>
+		<ul><p>
+		<br/>TESTING<?php echo $_POST['how_committed'] ?></p></ul></li><br>
+	</ol>
+	
+	<p>End of Survey</p>
+	</td>
+	</tr>
+	</table>
+  </div>
+</body>
+</html>
